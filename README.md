@@ -11,7 +11,7 @@ A simple text to image discord bot written in python using OpenAI DALL-E 2 model
 * aiohttp (3.8.4): `pip install aiohttp` [docs](https://pypi.org/project/aiohttp/)
 
 ## Running the Bot
-Run the bot in any terminal with `python Txt2Img-DiscordBot.py`  
+Add your [Discord bot](https://discord.com/developers/applications/) to your server making sure you have given it the necessary priviliges (i.e message content, send messages, embed links, attach files) and Run the bot in any terminal with `python Txt2Img-DiscordBot.py`  
 
 ### Alternative API Key Storage
 If you are planning on deploying this script you might want to consider setting up [environment variables](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety) to store your keys rather than having them in the script source code.
